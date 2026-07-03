@@ -22,6 +22,12 @@ A collection of native Solana smart contracts written in Rust to learn core Sola
 - Invokes the Double Program internally.
 - Shows how one Solana program can execute instructions on another program.
 
+## Steps to follow
+1. Copy the program from cpi-contract/src/lib.rs and src/lib.rs
+2. Build the program from https://beta.solpg.io/
+3. After the build is compelete export the binary file from the Solana Playground
+4. Copy the .so files in the *client/* folder and update the name of the file in the test files
+
 ## Project Structure
 
 ```
