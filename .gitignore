@@ -1,0 +1,17 @@
+# Rust
+target/
+
+# Solana test ledger
+test-ledger/
+
+# Node
+client/node_modules/
+
+# Build artifacts
+*.so
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
